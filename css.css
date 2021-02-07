@@ -1,0 +1,33 @@
+
+p#center {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  transition-duration: 1000;
+} 
+@media (max-width: 360px){
+  p#center{
+    padding-bottom: 2.5rem;
+  }
+}
+#app-titulo{
+  opacity: 0;
+  animation-name: fade;
+  animation-delay: 2s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+@keyframes fade{
+0%{opacity: 0;}
+50%{opacity: 1;}
+100%{opacity: 0;}
+}
+#app{
+background-image: linear-gradient(to top, rgba(81, 90, 31, 0.719), rgba(109, 109, 101, 0.144));
+}
+/* nav, #resultados, footer{
+background-image: linear-gradient(to right, rgba(147, 173, 150, 0.712), rgba(110, 212, 132, 0.801));
+} */
