@@ -15,8 +15,9 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-body">
-              <p>Praça da Rodoviária <b>615</b> - Machado - MG</p>
-              <p><b>Contato</b> wattsapp - (35)98878-9403</p>
+              <p>Praça da Rodoviária <b>615</b></p>
+              <p><b> Machado - MG</b></p>
+              <p><b>Contato</b> wattsapp - (35)98711 - 7869</p>
               <img src="img/adress.jpg" alt="Endereço" style="width: 100%;">
             </div>
             <div class="modal-footer">
@@ -26,64 +27,33 @@
        </div>
       </div>
 
-      <div class="modal fade" id="modal2">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h2 class="modal-title">Escolha um de nossos palpites</h2>
-            </div>
-            <div class="modal-body">
-              <div class="dropdown">
-                <button class="btn btn-success dropdown-toggle mb-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Escolha sua aposta
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <h5 class="dropdown-item" id="grupo">Grupo</h5>
-                  <h5 class="dropdown-item" id="centena">Centena</h5>
-                  <h5 class="dropdown-item" id="milhar">Milhar</h5>
-                </div>
-                <button type="button" class="close" data-dismiss="modal" id="try-again">Recarregar</button>
-              </div>
- 
-              <div id="img" class="text-center"></div>
-              <div class="class-center text-success" id="p1"></div> 
-              <div id="img2" class="text-center" style="display: none;"><img src="img/gif.gif" alt="" id="img"></div>
-            
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      <nav class="navbar navbar-expand-md navbar-light bg-secondary">
-        <a href="index.html" class="navbar-brand text-light"><h2>Bar do Véio</h2></a>
+      <nav class="navbar navbar-expand-md navbar-light border border-dark">
+        <a href="index.html" class="navbar-brand"><h2>Bar do Véio</h2></a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#lista">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="lista">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item-sm"><a href="atende.htm" class="nav-link text-light">Atendimento</a></li>
-            <li class="nav-item"><a href="fornece.htm" class="nav-link text-light">Fornecedores</a></li>
+            <li class="nav-item-sm"><a href="atende.htm" class="nav-link">Atendimento</a></li>
+            <!-- <li class="nav-item"><a href="fornece.htm" class="nav-link">Fornecedores</a></li> -->
             <li class="nav-item"><a href="#" class="nav-link"><div class="row">
               <div class="col">
-                <button type="button" id="resultados" class="btn btn-light text-dark" data-toggle="modal" data-target="#modal1">Abrir <span class="badge badge-dark">Endereço</span></button>
+                <button type="button" id="resultados" class="btn btn-primary text-dark" data-toggle="modal" data-target="#modal1">Abrir <span class="badge badge-dark">Endereço</span></button>
               </div>
             </div></a></li>
           </ul>
         </div>
       </nav>
       
-      
- 
       <div class="row justify-content-between pb-3 ml-0 mr-0">
         <div class="col-lg-5 mt-3">
-          <h2 class="text-center">Tradição</h2>
-          <p class="pt-3 pb-3 text-secondary">Muitos anos de experiência no ramo, conheça nosso atendimento diferenciado amigável que você pode confiar!</p>
+          <h2 class="text-center">Ambiente amigável </h2>
+          <p class="pt-3 pb-3 text-secondary">Se você gosta de cachaça da roça, cerveja gelada, petiscos feitos na hora e conversa boa só chegar pra conhecer! Teremos prazer e satisfação com sua visita ao nosso bar!</p>
           <h2 class="bg-light text-center text-dark p-3 rounded">Você encontra...</h2>
           <ul class="rounded pt-3">
             <li>Cerveja <b>bem gelada</b></li>
             <li>Cachaça da boa</li>
-            <li>Petiscos</li>
+            <li>Petiscos variados</li>
             <li>Bilhar</li>
           </ul>
         </div>
@@ -102,48 +72,14 @@
               </div>
               <div class="carousel-item">
                 <img src="img/beer.jpg" class="img-fluid rounded" alt="principal">
-                <p><b>Cerveja gelada!</b></p>
+                <p><b>Cerveja bem gelada!</b></p>
               </div>
 
             </div>
           </div>
         </div>
-        
-        
-        <!-- <div class="col-lg-3 mt-3">
-        </div> -->
       </div>
-
-      
-      
-      <h2 class="text-center bg-secondary text-light" id="resultados">Resultados de jogos <span class="badge badge-light">e palpites</span></h2>
-      
-      
-      <div class="row mb-5" >
-        <div class="col-lg-4 mt-3 rounded" id="app">
-          <h1 class="text-dark text-center pt-3" id="app-titulo">Palpite do dia</h1>
-          <div class="row text-center mb-3 mt-3">
-            <div class="col">
-              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal2">Vá para nossas sugestões <span class="badge badge-light">Aqui</span></button>
-            </div>
-          </div>
-          <p class="text-center text-dark" id="parag"><b>Aqui temos um aplicativo de palpites para seu jogo do dia</b></p>
-          <h2 class="textlight text-center" id="res"></h2>
-        </div>
-
-        <div class="col-lg-4 mt-3 bg-light d-flex align-items-center" style="height: 230px;">
-            <a href="https://www.ojogodobicho.com/deu_no_poste.htm" target="_blank"><img src="img/resultado.jpg" class="rounded"  style="max-width: 100%;height: auto;" alt="jogo-do-bicho"></a>
-          
-        </div>
-
-        <div class="col-lg-4 mt-3 rounded pt-3 text-center" id="resultados">
-          <h2 class="text-light">Sul Minas Cap</h2>
-          <a href="https://site.superminascap.com/" target="_blank"><img src="img/minas-cap.jpg" alt="minas-cap" class="img-fluid rounded"  style="max-width: 100%;height: auto;"></a>
-          <p class="text-light justify-content-center">Clique na imagem acima</p>
-        </div>
-      </div>
-      
-      
+    
       <div class="row">
         <div class="col-lg rounded">
           <h1 class="bg-secondary text-light text-center rounded p-3 m-2" id="resultados">
@@ -155,8 +91,8 @@
           </ul>
         </div>
         <div class="col-lg">
-          <h2 class="text-center">Aprecie sem moderação</h2>
-          <p class="p-3">Aqui você pode apreciar sua bebida favorita e saborear os melhores petiscos feitos na hora <span class="text-primary"><b>em nossa cozinha especializada</b></span> com pratos únicos e exclusivos</p>
+          <h2 class="text-center">Seja Bem Vindo</h2>
+          <p class="p-3">Estaremos prontos para servir à você a bebida de sua preferência e saborear os melhores petiscos feitos na hora <span class="text-primary"><b>em nossa cozinha especializada</b></span> com pratos saborosos e tudo com preço justo.</p>
           <p class="p-3">Aberto <b class="text-primary">todos os dias da semana</b> você é atendido diariamente com atenção qualquer dia da semana de 08:00 horas da manhã às 22:00 horas!</p>
         </div>
       </div>
