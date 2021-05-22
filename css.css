@@ -12,6 +12,7 @@ p#center {
     padding-bottom: 2.5rem;
   }
 }
+
 #app-titulo{
   opacity: 0;
   animation-name: fade;
